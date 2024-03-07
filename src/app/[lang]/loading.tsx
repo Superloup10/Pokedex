@@ -1,3 +1,5 @@
+"use client"
+
 import {useDictionary} from "@/context/DictionaryContext";
 
 export default function Loading() {

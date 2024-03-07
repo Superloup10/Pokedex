@@ -2,14 +2,14 @@ import type {Metadata} from "next";
 import {Inter} from "next/font/google";
 import "../globals.css";
 import ThemeProvider from "@/providers/theme-provider";
-import {i18n, type Locale} from "@/i18n-config";
+import {type Locale} from "@/i18n-config";
 import DictionaryProvider from "@/context/DictionaryContext";
 
 const inter = Inter({subsets: ["latin"]});
 
-export async function generateStaticParams() {
+/*export async function generateStaticParams() {
     return i18n.locales.map((locale) => ({lang: locale}));
-}
+}*/
 
 export const metadata: Metadata = {
     title: "Pokedex",
