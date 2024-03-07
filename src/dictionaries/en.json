@@ -1,0 +1,30 @@
+{
+  "errors": {
+    "message": "An error has occurred"
+  },
+  "loadings": {
+    "general": "Retrieving Pokémon data in progress",
+    "pokemons": "Pokémon recovery in progress"
+  },
+  "inputs": {
+    "combobox": {
+      "value": "Select type...",
+      "empty": "No type founds."
+    },
+    "text": "Name of pokemon",
+    "button": "Search"
+  },
+  "links": {
+    "pokedex": "Back to pokedex"
+  },
+  "pokemon": {
+    "type": "Type",
+    "types": "Types",
+    "height": "Height",
+    "weight": "Weight",
+    "ability": "Ability",
+    "abilities": "Abilities",
+    "hidden": "hidden",
+    "moves": "Moves"
+  }
+}
