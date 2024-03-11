@@ -1,6 +1,13 @@
 export type Dictionary = {
     errors: {
-        title: string;
+        general: {
+            title: string;
+        };
+        not_found: {
+            prefix: string;
+            title: string;
+            message: string;
+        }
     };
     loadings: {
         general: string;

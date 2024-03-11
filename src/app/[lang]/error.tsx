@@ -12,7 +12,7 @@ export default function Error({error}: { error: Error & { digest?: string } }) {
 
     return (
         <div>
-            <h2>{dictionary.errors.title}: {error.message}</h2>
+            <h2>{dictionary.errors.general.title}: {error.message}</h2>
         </div>
     );
 }

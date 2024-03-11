@@ -1,6 +1,13 @@
 {
   "errors": {
-    "title": "Une erreur est arrivée"
+    "general": {
+      "title": "Une erreur est arrivée"
+    },
+    "not_found": {
+      "prefix": "Erreur",
+      "title": "Page non trouvée",
+      "message": "Oops! La page que vous recherchez n'existe pas."
+    }
   },
   "loadings": {
     "general": "Récupération des données du pokémon en cours",

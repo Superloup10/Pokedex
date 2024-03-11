@@ -29,7 +29,7 @@ export default function DictionaryProvider({children, locale}: DictionaryProvide
     const [dictionary, setDictionary] = useState<Dictionary>(defaultDictionary);
     useEffect(() => {
         const fetchDictionary = async () => {
-            const loadedDictionary = await import((`@/dictionaries/${locale}.json`));
+            const loadedDictionary = await import(`@/dictionaries/${locale}.json`);
             setDictionary(loadedDictionary.default);
         };
         fetchDictionary();

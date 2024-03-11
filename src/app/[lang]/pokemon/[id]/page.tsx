@@ -23,9 +23,11 @@ export default function Pokemon({params}: { params: { id: number, lang: Locale }
     }, [params.id, params.lang, fetchPokemonData]);
 
     return (
-        <div className="grid grid-cols-1 gap-4">
-            <PokemonCard {...pokemonData[params.id]}/>
-            <Link href="/">{dictionary.links.pokedex}</Link>
-        </div>
+        <main className="p-8">
+            <div className="grid grid-cols-1 gap-4">
+                <PokemonCard {...pokemonData[params.id]}/>
+                <Link href="/">{dictionary.links.pokedex}</Link>
+            </div>
+        </main>
     );
 }
